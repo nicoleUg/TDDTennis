@@ -19,12 +19,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "6fb5920b511d5b88945ed2dc6cb578f531305ba9",
     "author": "nicoleUg",
     "commit": {
       "date": "2025-09-04T09:46:11.000Z",
       "message": "feat(tennis): jugador 2 suma puntos",
-      "url": "https://github.com/nicoleUg/TDDTennis/commit/HEAD"
+      "url": "https://github.com/nicoleUg/TDDTennis/commit/6fb5920b511d5b88945ed2dc6cb578f531305ba9"
     },
     "stats": {
       "total": 30,
@@ -34,6 +34,25 @@
     },
     "coverage": 100,
     "test_count": 6,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nicoleUg",
+    "commit": {
+      "date": "2025-09-04T09:48:47.000Z",
+      "message": "test(tennis): marcador normal hasta 40 - 30",
+      "url": "https://github.com/nicoleUg/TDDTennis/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 6,
+      "deletions": 0,
+      "date": "2025-09-04"
+    },
+    "coverage": 100,
+    "test_count": 7,
     "failed_tests": 0,
     "conclusion": "success"
   }

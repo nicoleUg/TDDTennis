@@ -32,4 +32,10 @@ describe("TennisScorer", () => {
     s.player2Scores();
     expect(s.showScore()).toBe("15 - 15");
   });
+  it("P1: 3 puntos, P2: 2 puntos => 40 - 30", () => {
+    const s = new TennisScorer();
+    s.player1Scores(); s.player1Scores(); s.player1Scores();
+    s.player2Scores(); s.player2Scores();
+    expect(s.showScore()).toBe("40 - 30");
+  });
 });

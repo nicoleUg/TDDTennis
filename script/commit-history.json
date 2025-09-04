@@ -38,12 +38,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d9437615d9d299daf342132e8e8147f67357d11b",
     "author": "nicoleUg",
     "commit": {
       "date": "2025-09-04T09:48:47.000Z",
       "message": "test(tennis): marcador normal hasta 40 - 30",
-      "url": "https://github.com/nicoleUg/TDDTennis/commit/HEAD"
+      "url": "https://github.com/nicoleUg/TDDTennis/commit/d9437615d9d299daf342132e8e8147f67357d11b"
     },
     "stats": {
       "total": 6,
@@ -53,6 +53,25 @@
     },
     "coverage": 100,
     "test_count": 7,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nicoleUg",
+    "commit": {
+      "date": "2025-09-04T09:58:05.000Z",
+      "message": "feat(tennis): detectar Deuce a partir de 40-40",
+      "url": "https://github.com/nicoleUg/TDDTennis/commit/HEAD"
+    },
+    "stats": {
+      "total": 15,
+      "additions": 13,
+      "deletions": 2,
+      "date": "2025-09-04"
+    },
+    "coverage": 100,
+    "test_count": 8,
     "failed_tests": 0,
     "conclusion": "success"
   }

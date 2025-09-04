@@ -13,6 +13,12 @@ class TennisScorer {
   showScore() {
     const p1 = this.player1Points;
     const p2 = this.player2Points;
+    if (p1 >= 4 || p2 >= 4) {
+      const diff = p1 - p2;
+      if (Math.abs(diff) >= 2) {
+        return diff > 0 ? "Game for Player 1" : "Game for Player 2";
+      }
+    }
     if (p1 >= 3 && p2 >= 3) {
       if (p1 === p2) return "Deuce";
       if (p1 - p2 === 1) return "Advantage Player 1";

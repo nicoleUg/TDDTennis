@@ -76,12 +76,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "312a82d77f5a47999e949a7e288b2eb259c6e043",
     "author": "nicoleUg",
     "commit": {
       "date": "2025-09-04T11:59:11.000Z",
       "message": "feat(tennis): ventaja para Player 1 o Player 2",
-      "url": "https://github.com/nicoleUg/TDDTennis/commit/HEAD"
+      "url": "https://github.com/nicoleUg/TDDTennis/commit/312a82d77f5a47999e949a7e288b2eb259c6e043"
     },
     "stats": {
       "total": 115,
@@ -91,6 +91,25 @@
     },
     "coverage": 100,
     "test_count": 9,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nicoleUg",
+    "commit": {
+      "date": "2025-09-04T12:00:43.000Z",
+      "message": "feat(tennis): regla de Game por diferencia de 2 puntos",
+      "url": "https://github.com/nicoleUg/TDDTennis/commit/HEAD"
+    },
+    "stats": {
+      "total": 24,
+      "additions": 18,
+      "deletions": 6,
+      "date": "2025-09-04"
+    },
+    "coverage": 90.91,
+    "test_count": 10,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -40,19 +40,25 @@ describe("TennisScorer", () => {
     expect(s.showScore()).toBe("Deuce");
   });
 
-  it("desde Deuce, P1 anota => Advantage Player 1", () => {
+  it("Advantage Player 1 y luego punto => Game for Player 1", () => {
     const s = new TennisScorer();
     s.player1Scores(); s.player1Scores(); s.player1Scores();
     s.player2Scores(); s.player2Scores(); s.player2Scores();
     s.player1Scores();
     expect(s.showScore()).toBe("Advantage Player 1");
+    s.player1Scores();
+    expect(s.showScore()).toBe("Game for Player 1");
   });
 
-  it("desde Deuce, P2 anota => Advantage Player 2", () => {
+  it("Game sin deuce: 4-0 => Game for Player 1", () => {
     const s = new TennisScorer();
-    s.player1Scores(); s.player1Scores(); s.player1Scores();
-    s.player2Scores(); s.player2Scores(); s.player2Scores();
-    s.player2Scores();
-    expect(s.showScore()).toBe("Advantage Player 2");
+    s.player1Scores(); s.player1Scores(); s.player1Scores(); s.player1Scores();
+    expect(s.showScore()).toBe("Game for Player 1");
+  });
+
+  it("Game para Player 2: 1-4 => Game for Player 2", () => {
+    const s = new TennisScorer();
+    s.player2Scores(); s.player2Scores(); s.player1Scores(); s.player2Scores(); s.player2Scores();
+    expect(s.showScore()).toBe("Game for Player 2");
   });
 });

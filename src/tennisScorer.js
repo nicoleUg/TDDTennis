@@ -13,8 +13,10 @@ class TennisScorer {
   showScore() {
     const p1 = this.player1Points;
     const p2 = this.player2Points;
-    if (p1 >= 3 && p2 >= 3 && p1 === p2) {
-      return "Deuce";
+    if (p1 >= 3 && p2 >= 3) {
+      if (p1 === p2) return "Deuce";
+      if (p1 - p2 === 1) return "Advantage Player 1";
+      if (p2 - p1 === 1) return "Advantage Player 2";
     }
     const left = this.scoreMap[p1] || "40";
     const right = this.scoreMap[p2] || "40";

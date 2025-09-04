@@ -1,18 +1,18 @@
-<!DOCTYPE html>
-<html xml:lang="es">
+<!doctype html>
+<html lang="es">
   <head>
-    <title>Sumador</title>
+    <meta charset="utf-8" />
+    <title>Tennis Score</title>
   </head>
   <body>
-    <h1>Sumador</h1>
-    <form id="sumar-form">
-      <label for="primer-numero">Primer número:</label>
-      <input type="number" id="primer-numero" />
-      <label for="segundo-numero">Segundo número:</label>
-      <input type="number" id="segundo-numero" />
-      <input type="submit" value="Sumar" id="sumar-button" />
-    </form>
-    <div id="resultado-div"></div>
+    <h1>Tennis Score</h1>
+
+    <div id="marcador"></div>
+
+    <div>
+      <button id="p1-btn">Anota Player 1</button>
+      <button id="p2-btn">Anota Player 2</button>
+    </div>
 
     <script type="module" src="./src/presenter.js"></script>
   </body>
